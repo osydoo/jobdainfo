@@ -10,6 +10,7 @@
 }
 
 .blockList {
+        background-color: #f9f9fa;
     list-style-type: none;
     width: 1120px;
     margin-top: 48px;
