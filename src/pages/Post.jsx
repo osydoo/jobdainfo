@@ -40,16 +40,16 @@ export default function Write() {
       <div className="post_body">
         <div className="title_wrap">
           <div className="token_wrap type2">
-            <span className="title_token">잡다 NEWS</span>
+            <span className="title_token">잡다 REVIEW</span>
           </div>
           <p className="title">우리들의 '진짜'이야기</p>
           <div className="description">
             <div className="period">
-              <div className="text">2021.08.14</div>
+              <div className="text">2021.08.24</div>
             </div>
             <div className="divider" />
             <div className="viewCount">
-              <div className="text">827</div>
+              <div className="text">100</div>
             </div>
           </div>
         </div>
@@ -65,6 +65,7 @@ export default function Write() {
           navigation={{
             prevEl: ".swiper-button-prev",
             nextEl: ".swiper-button-next",
+            disabledClass: "disabled_swiper_button",
           }}
           lazy
           autoplay={false}
@@ -84,7 +85,7 @@ export default function Write() {
           <SwiperSlide>
             <div className="swiper_ready" key="post5">
               <img src={post5} alt="body1" className="post_slider_background" />
-              <img src={postGif5} alt="body1" className="post_gif5" />
+              <img src={postGif5} alt="body1" className="post_gif4" />
             </div>
           </SwiperSlide>
           <SwiperSlide>

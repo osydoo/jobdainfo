@@ -11,6 +11,13 @@ import Layout from "./Layout";
 const blockList = [
   {
     img: block1,
+    title: "잡다 REVIEW",
+    explanation: "우리들의 '진짜'이야기",
+    tag: "#우리는 역량 #기업은 문화 #모두 다 모여",
+    type: "type8",
+  },
+  {
+    img: block1,
     title: "잡다 NEWS",
     explanation: "815 취준 광복 선언! 취준생이여 잡다로 다 모여라 😊",
     tag: "#우리는 역량 #기업은 문화 #모두 다 모여",
@@ -29,13 +36,6 @@ const blockList = [
     explanation: "취준이 어려운 사람들이 꼭 봐야 할 영상",
     tag: "#취업 준비의 시작 #나를 사랑하자 #취뽀왕의 취업 비밀",
     type: "type2",
-  },
-  {
-    img: block1,
-    title: "잡다 NEWS",
-    explanation: "815 취준 광복 선언! 취준생이여 잡다로 다 모여라 😊",
-    tag: "#우리는 역량 #기업은 문화 #모두 다 모여",
-    type: "type8",
   },
   {
     img: block1,

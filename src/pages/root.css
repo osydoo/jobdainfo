@@ -8,6 +8,10 @@ ul {
     padding: 0;
 }
 
+img {
+    pointer-events: none;
+}
+
 ::before {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -31,7 +35,8 @@ ul {
     margin: auto;
     width: 1120px;
     display: block;
-    pointer-events: none;
+    cursor: pointer;
+    pointer-events: auto !important;
 }
 
 .logo_wrap {

@@ -146,6 +146,12 @@ display: -webkit-flex;
     background-size: 32px 45px;
 }
 
+.disabled_swiper_button {
+    opacity: 0;
+    cursor: auto;
+    pointer-events: none;
+}
+
 .post_slider_background {
     width: 627px;
     margin: auto;
