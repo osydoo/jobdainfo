@@ -3,16 +3,22 @@ import SwiperCore, { Navigation } from "swiper";
 import "./root.css";
 import "./post.css";
 import Layout from "./Layout";
-import post1 from "../img/post1.jpg";
+import post0 from "../img/00/00.jpg";
+import post1 from "../img/01/01.png";
 import post2 from "../img/02/02-1.png";
-import sciMethod from "../img/sciMethod/sciMethod.gif";
-import step1 from "../img/02/02-3.gif";
-// import step1 from "../img/meetMethod/step1.gif";
-import step3 from "../img/03/03-2.gif";
-import step6 from "../img/meetMethod/step6.gif";
-import step7 from "../img/meetMethod/step7.gif";
-import stepBack1 from "../img/02/02-2.png";
-import stepBack2 from "../img/03/03-1.png";
+import post3 from "../img/03/03-1.png";
+import post4 from "../img/04/04-1.png";
+import post5 from "../img/05/05-1.png";
+import post6 from "../img/06/06-1.png";
+import post7 from "../img/07/07-1.png";
+import post8 from "../img/08/08-1.png";
+import post9 from "../img/09/09-1.png";
+import post10 from "../img/10/10-1.png";
+import postGif1 from "../img/01/01-2.gif";
+import postGif3 from "../img/03/03-2.gif"; 
+import postGif4 from "../img/04/04-2.gif"; 
+import postGif5 from "../img/05/05-2.gif"; 
+import postGif8 from "../img/08/08-2.gif"; 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useLocation } from "react-router-dom";
 
@@ -28,6 +34,7 @@ export default function Write() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);  
+
   return (
     <Layout>
       <div className="post_body">
@@ -47,56 +54,64 @@ export default function Write() {
           </div>
         </div>
         <hr className="body_divider"></hr>
-        <img src={post1} alt="body1" className="post1" />
-        <div className="post_gif_wrap">
-          <img src={sciMethod} alt="body1" className="post_gif" />
+        <img src={post0} alt="body1" className="post" />
+        <div className="post1_gif_wrap">
+          <img src={post1} alt="body1" className="post1_back" />
+          <img src={postGif1} alt="body1" className="post1_gif" />
         </div>
-        <img src={post2} alt="body1" className="post1" />
+        <img src={post2} alt="body1" className="post" />
         <Swiper
           spaceBetween={50}
           navigation={{
-            prevEl: '.swiper-button-prev',
-            nextEl: '.swiper-button-next',
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
           }}
           lazy
           autoplay={false}
         >
           <SwiperSlide>
-            {/* <div className="swiper_ready step1_ready">
-              <img src={step1} alt="body1" className="step1" />
-            </div> */}
-            <div className="swiper_ready">
-              <img src={stepBack1} alt="body1" className="stepBack1" />
-              <img src={step1} alt="body1" className="stepGif1" />
+            <div className="swiper_ready" key="post3">
+              <img src={post3} alt="body1" className="post_slider_background" />
+              <img src={postGif3} alt="body1" className="post_gif3" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            {/* <div className="swiper_ready step2_ready">
-              <img src={step3} alt="body1" className="step2" />
-            </div> */}
-            <div className="swiper_ready">
-              <img src={stepBack2} alt="body1" className="stepBack1" />
-              <img src={step3} alt="body1" className="stepGif2" />
+            <div className="swiper_ready" key="post4">
+              <img src={post4} alt="body1" className="post_slider_background" />
+              <img src={postGif4} alt="body1" className="post_gif4" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="swiper_ready step2_ready">
-              <img src={step3} alt="body1" className="step2" />
+            <div className="swiper_ready" key="post5">
+              <img src={post5} alt="body1" className="post_slider_background" />
+              <img src={postGif5} alt="body1" className="post_gif5" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="swiper_ready step2_ready">
-              <img src={step6} alt="body1" className="step2" />
+            <div className="swiper_ready" key="post6">
+              <img src={post6} alt="body1" className="post_slider_background" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="swiper_ready step2_ready">
-              <img src={step7} alt="body1" className="step2" />
+            <div className="swiper_ready" key="post7">
+              <img src={post7} alt="body1" className="post_slider_background" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper_ready" key="post4">
+              <img src={post8} alt="body1" className="post_slider_background" />
+              <img src={postGif8} alt="body1" className="post_gif4" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiper_ready" key="post7">
+              <img src={post9} alt="body1" className="post_slider_background" />
             </div>
           </SwiperSlide>
           <div class="swiper-button-next"></div>
-	        <div class="swiper-button-prev"></div>
+          <div class="swiper-button-prev"></div>
         </Swiper>
+        <img src={post10} alt="body1" className="post" />
       </div>
     </Layout>
   );
