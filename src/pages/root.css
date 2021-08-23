@@ -26,10 +26,11 @@ img {
 
 .body {
     padding-top: 64px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     box-sizing: border-box;
     background-color: #f9f9fa;
 }
+
 
 .logo {
     margin: auto;
@@ -56,6 +57,12 @@ img {
     width: 1120px;
     display: block;
     pointer-events: none;
+}
+
+.footer_img {
+    margin: auto;
+    width: 100%;
+    display: block;
 }
 
 .jumbo {
@@ -152,6 +159,13 @@ img {
     flex-direction: column;
     padding: 32px;
     height: 252px;
+}
+
+.pagination {
+    margin: auto;
+    padding-bottom: 120px;
+    margin-top: 64px;
+    display: block;
 }
 
 .token_wrap {

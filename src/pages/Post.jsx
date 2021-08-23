@@ -19,6 +19,7 @@ import postGif3 from "../img/03/03-2.gif";
 import postGif4 from "../img/04/04-2.gif"; 
 import postGif5 from "../img/05/05-2.gif"; 
 import postGif8 from "../img/08/08-2.gif"; 
+import advertise from "../img/advertise.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useLocation } from "react-router-dom";
 
@@ -114,6 +115,7 @@ export default function Write() {
         </Swiper>
         <img src={post10} alt="body1" className="post" />
       </div>
+      <img src={advertise} alt="" className="footer_img"></img>
     </Layout>
   );
 }

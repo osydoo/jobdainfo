@@ -2,6 +2,7 @@ import React from "react";
 import "./root.css";
 import logo from "../img/logo.png";
 import navPage from "../img/navPage.png";
+import footerImg from "../img/footer.png";
 import { useHistory } from "react-router-dom";
 
 export default function Layout(props) {
@@ -20,6 +21,7 @@ export default function Layout(props) {
         <img className="nav_page" src={navPage} alt=""></img>
       </div>
       {props.children}
+      <img src={footerImg} alt="" className="footer_img"></img>
     </div>
   );
 }
