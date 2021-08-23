@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import SwiperCore, { Navigation } from "swiper";
 import "./root.css";
 import "./post.css";
@@ -14,6 +14,8 @@ import step7 from "../img/meetMethod/step7.gif";
 import stepBack1 from "../img/02/02-2.png";
 import stepBack2 from "../img/03/03-1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useLocation } from "react-router-dom";
+
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
@@ -21,6 +23,11 @@ import "swiper/components/pagination/pagination.scss";
 SwiperCore.use([Navigation]);
 
 export default function Write() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);  
   return (
     <Layout>
       <div className="post_body">
@@ -79,12 +86,12 @@ export default function Write() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready step2_ready">
-              <img src={step3} alt="body1" className="step2" />
+              <img src={step6} alt="body1" className="step2" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready step2_ready">
-              <img src={step3} alt="body1" className="step2" />
+              <img src={step7} alt="body1" className="step2" />
             </div>
           </SwiperSlide>
           <div class="swiper-button-next"></div>
