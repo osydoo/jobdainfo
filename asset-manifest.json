@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jobdainfo/static/css/main.4671978f.chunk.css",
-    "main.js": "/jobdainfo/static/js/main.d7239617.chunk.js",
-    "main.js.map": "/jobdainfo/static/js/main.d7239617.chunk.js.map",
+    "main.css": "/jobdainfo/static/css/main.157057da.chunk.css",
+    "main.js": "/jobdainfo/static/js/main.984eeafc.chunk.js",
+    "main.js.map": "/jobdainfo/static/js/main.984eeafc.chunk.js.map",
     "runtime-main.js": "/jobdainfo/static/js/runtime-main.e1baa358.js",
     "runtime-main.js.map": "/jobdainfo/static/js/runtime-main.e1baa358.js.map",
     "static/css/2.9db43157.chunk.css": "/jobdainfo/static/css/2.9db43157.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.26fba583.chunk.js.map": "/jobdainfo/static/js/3.26fba583.chunk.js.map",
     "index.html": "/jobdainfo/index.html",
     "static/css/2.9db43157.chunk.css.map": "/jobdainfo/static/css/2.9db43157.chunk.css.map",
-    "static/css/main.4671978f.chunk.css.map": "/jobdainfo/static/css/main.4671978f.chunk.css.map",
+    "static/css/main.157057da.chunk.css.map": "/jobdainfo/static/css/main.157057da.chunk.css.map",
     "static/js/2.a4c54c6f.chunk.js.LICENSE.txt": "/jobdainfo/static/js/2.a4c54c6f.chunk.js.LICENSE.txt",
     "static/media/00.78404502.jpg": "/jobdainfo/static/media/00.78404502.jpg",
     "static/media/01-2.2a7ebb19.gif": "/jobdainfo/static/media/01-2.2a7ebb19.gif",
@@ -30,9 +30,13 @@
     "static/media/08-2.02e965f6.gif": "/jobdainfo/static/media/08-2.02e965f6.gif",
     "static/media/09-1.a43c59f2.png": "/jobdainfo/static/media/09-1.a43c59f2.png",
     "static/media/10-1.794ac90b.png": "/jobdainfo/static/media/10-1.794ac90b.png",
+    "static/media/advertise.a826816f.png": "/jobdainfo/static/media/advertise.a826816f.png",
     "static/media/block1.931d8c60.png": "/jobdainfo/static/media/block1.931d8c60.png",
     "static/media/block2.0b132cdc.png": "/jobdainfo/static/media/block2.0b132cdc.png",
     "static/media/block3.4b3e9ae1.png": "/jobdainfo/static/media/block3.4b3e9ae1.png",
+    "static/media/block4.e465c1f1.png": "/jobdainfo/static/media/block4.e465c1f1.png",
+    "static/media/block5.b127b7a3.png": "/jobdainfo/static/media/block5.b127b7a3.png",
+    "static/media/footer.a4e5e8b0.png": "/jobdainfo/static/media/footer.a4e5e8b0.png",
     "static/media/post.css": "/jobdainfo/static/media/iconEyesOpen20.020d8d8d.svg",
     "static/media/jumbo.d6bf17c6.png": "/jobdainfo/static/media/jumbo.d6bf17c6.png",
     "static/media/logo.556e3a42.png": "/jobdainfo/static/media/logo.556e3a42.png",
@@ -42,7 +46,7 @@
     "static/js/runtime-main.e1baa358.js",
     "static/css/2.9db43157.chunk.css",
     "static/js/2.a4c54c6f.chunk.js",
-    "static/css/main.4671978f.chunk.css",
-    "static/js/main.d7239617.chunk.js"
+    "static/css/main.157057da.chunk.css",
+    "static/js/main.984eeafc.chunk.js"
   ]
 }
