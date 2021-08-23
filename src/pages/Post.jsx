@@ -1,4 +1,5 @@
 import React from "react";
+import SwiperCore, { Navigation } from "swiper";
 import "./root.css";
 import "./post.css";
 import Layout from "./Layout";
@@ -10,8 +11,14 @@ import step1 from "../img/02/02-3.gif";
 import step3 from "../img/03/03-2.gif";
 import step6 from "../img/meetMethod/step6.gif";
 import step7 from "../img/meetMethod/step7.gif";
+import stepBack1 from "../img/02/02-2.png";
+import stepBack2 from "../img/03/03-1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
+import "swiper/components/navigation/navigation.scss";
+import "swiper/components/pagination/pagination.scss";
+
+SwiperCore.use([Navigation]);
 
 export default function Write() {
   return (
@@ -39,14 +46,30 @@ export default function Write() {
         </div>
         <img src={post2} alt="body1" className="post1" />
         <Swiper
-          className="swiper"
           spaceBetween={50}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          navigation={{
+            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next',
+          }}
+          lazy
+          autoplay={false}
         >
           <SwiperSlide>
-            <div className="swiper_ready step1_ready">
+            {/* <div className="swiper_ready step1_ready">
               <img src={step1} alt="body1" className="step1" />
+            </div> */}
+            <div className="swiper_ready">
+              <img src={stepBack1} alt="body1" className="stepBack1" />
+              <img src={step1} alt="body1" className="stepGif1" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            {/* <div className="swiper_ready step2_ready">
+              <img src={step3} alt="body1" className="step2" />
+            </div> */}
+            <div className="swiper_ready">
+              <img src={stepBack2} alt="body1" className="stepBack1" />
+              <img src={step3} alt="body1" className="stepGif2" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -55,16 +78,22 @@ export default function Write() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={step3} alt="step1" className="swiper_gif" />
+            <div className="swiper_ready step2_ready">
+              <img src={step3} alt="body1" className="step2" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={step6} alt="step1" className="swiper_gif" />
+            <div className="swiper_ready step2_ready">
+              <img src={step3} alt="body1" className="step2" />
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={step7} alt="step7" className="swiper_gif" />
-          </SwiperSlide>
+          <div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div>
         </Swiper>
       </div>
     </Layout>
   );
 }
+
+// 해야할일
+// sciMethod 상단에 라인생기는 경우
