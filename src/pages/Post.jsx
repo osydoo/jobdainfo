@@ -3,7 +3,7 @@ import SwiperCore, { Navigation } from "swiper";
 import "./root.css";
 import "./post.css";
 import Layout from "./Layout";
-import post0 from "../img/00/00.jpg";
+import post0 from "../img/00/00.png";
 import post1 from "../img/01/01.png";
 import post2 from "../img/02/02-1.png";
 import post3 from "../img/03/03-1.png";

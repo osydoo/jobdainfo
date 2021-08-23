@@ -29,6 +29,7 @@ img {
     /* padding-bottom: 120px; */
     box-sizing: border-box;
     background-color: #f9f9fa;
+    -webkit-transform:translate3d(0,0,0);
 }
 
 
@@ -119,6 +120,7 @@ img {
     transition: filter .5s,transform .5s,-webkit-filter .5s,-webkit-transform .5s,-moz-transform .5s;
     -webkit-filter: drop-shadow(0 12px 32px rgba(0,0,0,.12));
     filter: drop-shadow(0 12px 32px rgba(0,0,0,.12));
+    -webkit-backface-visibility: hidden;
 }
 
 .card:hover {
@@ -256,3 +258,4 @@ img {
     margin: auto;
     padding: 64px 0 120px;
 }
+

@@ -14,9 +14,9 @@ import Layout from "./Layout";
 const blockList = [
   {
     img: block1,
-    title: "잡다 REVIEW",
+    title: "잡다 NEWS",
     explanation: "우리들의 '진짜'이야기",
-    tag: "#우리는 역량 #기업은 문화 #모두 다 모여",
+    tag: "#우리 이야기 #역량 검사 #체험기",
     type: "type8",
   },
   {
