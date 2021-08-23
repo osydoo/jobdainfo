@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jobdainfo/static/css/main.0d9aef88.chunk.css",
+    "main.css": "/jobdainfo/static/css/main.f9c53867.chunk.css",
     "main.js": "/jobdainfo/static/js/main.af20e7e2.chunk.js",
     "main.js.map": "/jobdainfo/static/js/main.af20e7e2.chunk.js.map",
     "runtime-main.js": "/jobdainfo/static/js/runtime-main.e1baa358.js",
@@ -12,7 +12,7 @@
     "static/js/3.26fba583.chunk.js.map": "/jobdainfo/static/js/3.26fba583.chunk.js.map",
     "index.html": "/jobdainfo/index.html",
     "static/css/2.9db43157.chunk.css.map": "/jobdainfo/static/css/2.9db43157.chunk.css.map",
-    "static/css/main.0d9aef88.chunk.css.map": "/jobdainfo/static/css/main.0d9aef88.chunk.css.map",
+    "static/css/main.f9c53867.chunk.css.map": "/jobdainfo/static/css/main.f9c53867.chunk.css.map",
     "static/js/2.a4c54c6f.chunk.js.LICENSE.txt": "/jobdainfo/static/js/2.a4c54c6f.chunk.js.LICENSE.txt",
     "static/media/00.871370e6.png": "/jobdainfo/static/media/00.871370e6.png",
     "static/media/01-2.2a7ebb19.gif": "/jobdainfo/static/media/01-2.2a7ebb19.gif",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.e1baa358.js",
     "static/css/2.9db43157.chunk.css",
     "static/js/2.a4c54c6f.chunk.js",
-    "static/css/main.0d9aef88.chunk.css",
+    "static/css/main.f9c53867.chunk.css",
     "static/js/main.af20e7e2.chunk.js"
   ]
 }
