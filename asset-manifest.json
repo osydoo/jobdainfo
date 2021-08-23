@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jobdainfo/static/css/main.157057da.chunk.css",
-    "main.js": "/jobdainfo/static/js/main.984eeafc.chunk.js",
-    "main.js.map": "/jobdainfo/static/js/main.984eeafc.chunk.js.map",
+    "main.css": "/jobdainfo/static/css/main.0d9aef88.chunk.css",
+    "main.js": "/jobdainfo/static/js/main.af20e7e2.chunk.js",
+    "main.js.map": "/jobdainfo/static/js/main.af20e7e2.chunk.js.map",
     "runtime-main.js": "/jobdainfo/static/js/runtime-main.e1baa358.js",
     "runtime-main.js.map": "/jobdainfo/static/js/runtime-main.e1baa358.js.map",
     "static/css/2.9db43157.chunk.css": "/jobdainfo/static/css/2.9db43157.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.26fba583.chunk.js.map": "/jobdainfo/static/js/3.26fba583.chunk.js.map",
     "index.html": "/jobdainfo/index.html",
     "static/css/2.9db43157.chunk.css.map": "/jobdainfo/static/css/2.9db43157.chunk.css.map",
-    "static/css/main.157057da.chunk.css.map": "/jobdainfo/static/css/main.157057da.chunk.css.map",
+    "static/css/main.0d9aef88.chunk.css.map": "/jobdainfo/static/css/main.0d9aef88.chunk.css.map",
     "static/js/2.a4c54c6f.chunk.js.LICENSE.txt": "/jobdainfo/static/js/2.a4c54c6f.chunk.js.LICENSE.txt",
-    "static/media/00.78404502.jpg": "/jobdainfo/static/media/00.78404502.jpg",
+    "static/media/00.871370e6.png": "/jobdainfo/static/media/00.871370e6.png",
     "static/media/01-2.2a7ebb19.gif": "/jobdainfo/static/media/01-2.2a7ebb19.gif",
     "static/media/01.92017438.png": "/jobdainfo/static/media/01.92017438.png",
     "static/media/02-1.3c21cacb.png": "/jobdainfo/static/media/02-1.3c21cacb.png",
@@ -31,6 +31,7 @@
     "static/media/09-1.a43c59f2.png": "/jobdainfo/static/media/09-1.a43c59f2.png",
     "static/media/10-1.794ac90b.png": "/jobdainfo/static/media/10-1.794ac90b.png",
     "static/media/advertise.a826816f.png": "/jobdainfo/static/media/advertise.a826816f.png",
+    "static/media/block0.e0d8278c.png": "/jobdainfo/static/media/block0.e0d8278c.png",
     "static/media/block1.931d8c60.png": "/jobdainfo/static/media/block1.931d8c60.png",
     "static/media/block2.0b132cdc.png": "/jobdainfo/static/media/block2.0b132cdc.png",
     "static/media/block3.4b3e9ae1.png": "/jobdainfo/static/media/block3.4b3e9ae1.png",
@@ -46,7 +47,7 @@
     "static/js/runtime-main.e1baa358.js",
     "static/css/2.9db43157.chunk.css",
     "static/js/2.a4c54c6f.chunk.js",
-    "static/css/main.157057da.chunk.css",
-    "static/js/main.984eeafc.chunk.js"
+    "static/css/main.0d9aef88.chunk.css",
+    "static/js/main.af20e7e2.chunk.js"
   ]
 }
