@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import "./root.css";
+import block0 from "../img/block0.png"
 import block1 from "../img/block1.png";
 import block2 from "../img/block2.png";
 import block3 from "../img/block3.png";
@@ -13,7 +14,7 @@ import Layout from "./Layout";
 
 const blockList = [
   {
-    img: block1,
+    img: block0,
     title: "잡다 NEWS",
     explanation: "우리들의 '진짜'이야기",
     tag: "#우리 이야기 #역량 검사 #체험기",
@@ -29,7 +30,7 @@ const blockList = [
   {
     img: block2,
     title: "잡다 NEWS",
-    explanation: '취준이 어려운 사람들이 꼭 봐야 할 영상',
+    explanation: "취준이 어려운 사람들이 꼭 봐야 할 영상",
     tag: "#취업 준비의 시작 #나를 사랑하자 #취뽀왕의 취업 비밀",
     type: "type8",
   },
