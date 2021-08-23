@@ -43,7 +43,9 @@ export default function Write() {
           <div className="token_wrap type2">
             <span className="title_token">잡다 REVIEW</span>
           </div>
-          <p className="title">우리들의 '진짜'이야기</p>
+          <p className="title">
+            잡다 {`<`}체험기{`>`}마이다스 공채20기, 우리들의 '진짜'이야기
+          </p>
           <div className="description">
             <div className="period">
               <div className="text">2021.08.24</div>
@@ -75,39 +77,60 @@ export default function Write() {
             <div className="swiper_ready" key="post3">
               <img src={post3} alt="body1" className="post_slider_background" />
               <img src={postGif3} alt="body1" className="post_gif3" />
+              <div className="post_text3 text_type0">
+                *실제 역검 환경체크 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post4">
               <img src={post4} alt="body1" className="post_slider_background" />
               <img src={postGif4} alt="body1" className="post_gif4" />
+              <div className="post_text3 text_type1">
+                *실제 역검 자기소개 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post5">
               <img src={post5} alt="body1" className="post_slider_background" />
               <img src={postGif5} alt="body1" className="post_gif4" />
+              <div className={"post_text3 text_type1"}>
+                *실제 역검 성향파악 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post6">
               <img src={post6} alt="body1" className="post_slider_background" />
+              <div className="post_text3 text_type1">
+                *실제 역검 상황대처 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post7">
               <img src={post7} alt="body1" className="post_slider_background" />
+              <div className="post_text3 text_type1">
+                *실제 역검 보상선호 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post4">
               <img src={post8} alt="body1" className="post_slider_background" />
               <img src={postGif8} alt="body1" className="post_gif4" />
+              <div className="post_text3 text_type1">
+                *실제 역검 전략게임 화면
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper_ready" key="post7">
               <img src={post9} alt="body1" className="post_slider_background" />
+              <div className="post_text3 text_type1">
+                *실제 역검 심층대화 화면
+              </div>
             </div>
           </SwiperSlide>
           <div class="swiper-button-next"></div>

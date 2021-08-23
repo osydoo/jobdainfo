@@ -164,6 +164,24 @@ display: -webkit-flex;
     top: 160px;
 }
 
+.post_text3 {
+    position:absolute;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: -0.55px;
+}
+
+.text_type0 {
+    bottom: 207px;
+    right: 222px;
+}
+
+.text_type1 {
+    bottom: 142px;
+    right: 203px;
+}
+
 .post_gif4 {
     width: 357px;
     position: absolute;

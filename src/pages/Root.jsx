@@ -16,8 +16,11 @@ const blockList = [
   {
     img: block0,
     title: "잡다 NEWS",
-    explanation: "우리들의 '진짜'이야기",
-    tag: "#우리 이야기 #역량 검사 #체험기",
+    explanation: `
+    잡다 <체험기>
+    마이다스 공채20기,
+    우리들의 '진짜'이야기`,
+    tag: "#잡다체험기 #역량 검사 #공채20기",
     type: "type8",
   },
   {
@@ -30,15 +33,15 @@ const blockList = [
   {
     img: block2,
     title: "잡다 NEWS",
-    explanation: "취준이 어려운 사람들이 꼭 봐야 할 영상",
-    tag: "#취업 준비의 시작 #나를 사랑하자 #취뽀왕의 취업 비밀",
+    explanation: '나와 최고 궁합 기업에 입사!   無스펙 "인턴잡다 프로젝트"',
+    tag: "#무스펙 #역검만 #최고 궁합 기업/직군 추천",
     type: "type8",
   },
   {
     img: block3,
     title: "썰을 잡다",
-    explanation: "유퀴즈 그사람! 무스펙 취뽀왕의 15개 대기업 합격썰",
-    tag: "#유퀴즈에 그 사람 #무스펙 #취뽀왕 #15개 대기업 합격",
+    explanation: "취준이 어려운 사람들이 꼭 봐야 할 영상",
+    tag: "#취업 준비의 시작 #나를 사랑하자 #취뽀왕의 취업 비밀",
     type: "type2",
   },
   {
@@ -80,6 +83,7 @@ export default function Root() {
                       alt="정보카드 썸네일"
                       class="card_thumb"
                     />
+                    {idx === 0 && <div className="thumnail_text">체험기</div>}
                   </header>
                   <div className="card_body_wrap">
                     <div className={`token_wrap ${value.type}`}>
@@ -98,3 +102,5 @@ export default function Root() {
     </Layout>
   );
 }
+
+

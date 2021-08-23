@@ -102,7 +102,6 @@ img {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     list-style-type: none;
-    -webkit-backface-visibility: hidden!important;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
@@ -121,6 +120,15 @@ img {
     transition: filter .5s,transform .5s,-webkit-filter .5s,-webkit-transform .5s,-moz-transform .5s;
     -webkit-filter: drop-shadow(0 12px 32px rgba(0,0,0,.12));
     filter: drop-shadow(0 12px 32px rgba(0,0,0,.12));
+}
+
+.thumnail_text {
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 17px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .card:hover {
@@ -142,6 +150,7 @@ img {
 .card_thumbArea {
     width: 352px;
     height: 224px;
+    position: relative;
 }
 
 .card_thumb {
