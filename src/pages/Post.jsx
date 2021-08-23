@@ -38,7 +38,6 @@ export default function Write() {
           <img src={sciMethod} alt="body1" className="post_gif" />
         </div>
         <img src={post2} alt="body1" className="post1" />
-
         <Swiper
           className="swiper"
           spaceBetween={50}

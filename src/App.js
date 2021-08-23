@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Root} />
-        <Route path="/post" component={Post} />
+        <Route exact path="/jobdainfo/" component={Root} />
+        <Route path="/jobdainfo/post" component={Post} />
       </Switch>
     </Router>
   );

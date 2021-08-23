@@ -57,7 +57,7 @@ export default function Root() {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push(`/post`);
+    history.push(`/jobdainfo/post`);
   }
 
   return (
